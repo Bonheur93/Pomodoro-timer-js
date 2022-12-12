@@ -105,3 +105,12 @@ section {
     border-radius: 50%;
     background-color: var(--color-primary);
 }
+
+.time {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.time p {
+    font-size: 5.6rem;
+}
