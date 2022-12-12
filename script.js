@@ -27,3 +27,15 @@ function start() {
 
         // start
         seconds = seconds - 1;
+        if(seconds === 0) {
+            workMinutes = workMinutes - 1;
+            if(workMinutes === -1 ){
+                if(breakCount % 2 === 0) {
+                    // start break
+                    workMinutes = breakMinutes;
+                    breakCount++
+
+                    // change the painel
+                    workTittle.classList.remove('active');
+                    breakTittle.classList.add('active');
+                }else {
