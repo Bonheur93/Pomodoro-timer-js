@@ -129,3 +129,6 @@ section {
     background-color: transparent;
     cursor: pointer;
 }
+.controls #reset {
+    display: none;
+}
