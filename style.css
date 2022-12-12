@@ -123,3 +123,9 @@ section {
 .controls {
     margin-top: 3rem;
 }
+
+.controls button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
