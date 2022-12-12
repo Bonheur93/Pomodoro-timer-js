@@ -38,4 +38,19 @@ function start() {
                     // change the painel
                     workTittle.classList.remove('active');
                     breakTittle.classList.add('active');
-                }else {
+                }else {  // continue work
+                    workMinutes = workTime;
+                    breakCount++
+
+                    // change the painel
+                    breakTittle.classList.remove('active');
+                    workTittle.classList.add('active');
+                }
+            }
+            seconds = 59;
+        }
+    }
+
+    // start countdown
+    setInterval(timerFunction, 1000); // 1000 = 1s
+}
