@@ -18,3 +18,12 @@ function start() {
     let breakMinutes = breakTime - 1;
 
     breakCount = 0;
+
+       // countdown
+       let timerFunction = () => {
+        //change the display
+        document.getElementById('minutes').innerHTML = workMinutes;
+        document.getElementById('seconds').innerHTML = seconds;
+
+        // start
+        seconds = seconds - 1;
