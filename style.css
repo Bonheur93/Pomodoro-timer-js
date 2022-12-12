@@ -114,3 +114,8 @@ section {
 .time p {
     font-size: 5.6rem;
 }
+.time p:nth-of-type(2) {
+    position: relative;
+    top: -.5rem;
+    margin-inline: 1rem;
+}
